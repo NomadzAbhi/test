@@ -3570,14 +3570,14 @@ a:hover, a:focus {
 
 @media (min-width: 1400px) {
   .meta__info-item {
-    padding: 63px 0 31px;
+    padding: 23px 0 31px;
   }
 }
 
 .meta__info-item span {
   font-size: 16px;
   line-height: 110%;
-  text-align: center;
+  text-align: start;
 }
 
 @media (min-width: 1400px) {
@@ -3750,6 +3750,7 @@ a:hover, a:focus {
   background-position: 50% 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+          display: none;
 }
 
 @media (min-width: 1200px) {
@@ -7077,7 +7078,7 @@ a:hover, a:focus {
 
 .first-banner__image {
   position: absolute;
-  top: 0;
+  top: -100px;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8954,13 +8955,13 @@ a:hover, a:focus {
 
 @media (min-width: 768px) {
   .about-us {
-    padding-bottom: 120px;
+    padding-bottom: 50px;
   }
 }
 
 @media (min-width: 1200px) {
   .about-us {
-    padding-bottom: 240px;
+    padding-bottom: 50px;
   }
 }
 
@@ -8981,7 +8982,7 @@ a:hover, a:focus {
 
 @media (min-width: 1200px) {
   .about-us__banner .first-banner__title {
-    padding-bottom: 10.6%;
+    padding-bottom: 20.6%;
   }
 }
 
@@ -10395,8 +10396,8 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   .footer__logo {
-    height: 386px;
-    padding: 72px 73px 72px 58px;
+    height: 286px;
+    padding: 124px 0px 41px 0px;
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
