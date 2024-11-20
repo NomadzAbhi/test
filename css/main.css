@@ -10372,7 +10372,7 @@ a:hover, a:focus {
 .footer__logo {
   display: inline-block;
   height: 257px;
-  padding: 48px 48px 48px 36px;
+  padding: 81px 0px 40px 3px;
   vertical-align: top;
   background-color: #000000;
   -ms-grid-column-align: start;
